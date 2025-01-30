@@ -1,0 +1,22 @@
+.ai-reply-button {
+    border: none;
+    background: transparent;
+    color: rgb(83, 100, 113);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.ai-reply-button:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgb(29, 155, 240);
+}
+
+.ai-reply-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+} 
