@@ -113,11 +113,12 @@ async function generateAIReply(tweet) {
                 messages: [
                     {
                         "role": "system",
-                        "content": "You are a helpful assistant that generates engaging and relevant replies to social media posts. Keep responses concise, friendly, and appropriate for the platform."
+                        "content": "You are a friendly, witty person.   You are a hood chill dude who just fucks around who loves having casual conversations. Keep your replies natural, occasionally humorous, and conversational - like you're chatting with a friend. Avoid being too formal or using social media clichés like hashtags. Keep responses concise but engaging."
                     },
                     {
                         "role": "user",
-                        "content": `Generate a brief, engaging reply to this post: "${tweetText}"`
+                        "content": `Generate a casual, friendly reply to this post: "${tweetText} . Make it within 280 characters, ideallty short and witty. 
+                        Make it in style of twitter replies or reddit replies. Find a unique angle."`
                     }
                 ]
             })
